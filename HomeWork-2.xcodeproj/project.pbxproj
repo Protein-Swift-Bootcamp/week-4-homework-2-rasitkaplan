@@ -7,23 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		613DFE162ABFC1C212ACB8DD /* Pods_HomeWork_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB48C4CA09E5408266DA4DD /* Pods_HomeWork_2.framework */; };
+		6C1D16A02965BF180091E728 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1D169F2965BF180091E728 /* NetworkHelper.swift */; };
+		6C1D16A22965BF3A0091E728 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1D16A12965BF3A0091E728 /* NetworkManager.swift */; };
+		6C1DE6082964DBD1009413C9 /* PharmacyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C1DE6062964DBD1009413C9 /* PharmacyCell.xib */; };
+		6C1DE6092964DBD1009413C9 /* PharmacyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1DE6072964DBD1009413C9 /* PharmacyCell.swift */; };
+		6C1DE60B2964DD16009413C9 /* CurrencyViewController + TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1DE60A2964DD16009413C9 /* CurrencyViewController + TableView.swift */; };
+		6C1DE60F2964DD5B009413C9 /* CurrencyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C1DE60D2964DD5B009413C9 /* CurrencyCell.xib */; };
+		6C1DE6102964DD5B009413C9 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1DE60E2964DD5B009413C9 /* CurrencyCell.swift */; };
+		6C31B94F2967226A00053C49 /* PharmacyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C31B94E2967226A00053C49 /* PharmacyViewModel.swift */; };
+		6C31B952296723EB00053C49 /* PharmacyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C31B951296723EB00053C49 /* PharmacyModel.swift */; };
+		6C31B95429672B8300053C49 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C31B95329672B8300053C49 /* WeatherModel.swift */; };
+		6C31B95629672F7800053C49 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C31B95529672F7800053C49 /* WeatherViewModel.swift */; };
+		6C31B9582967301B00053C49 /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C31B9572967301B00053C49 /* CurrencyViewModel.swift */; };
+		6C31B95A296731E600053C49 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C31B959296731E600053C49 /* CurrencyModel.swift */; };
+		6C670B4A296AFC66005B1C89 /* CatagoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C670B48296AFC66005B1C89 /* CatagoryCell.xib */; };
+		6C670B4B296AFC66005B1C89 /* CatagoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C670B49296AFC66005B1C89 /* CatagoryCell.swift */; };
+		6C670B4D296B055D005B1C89 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C670B4C296B055D005B1C89 /* String+Extension.swift */; };
 		6CD8A6EB296466C700C3AAED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD8A6EA296466C700C3AAED /* AppDelegate.swift */; };
-		6CD8A6ED296466C700C3AAED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD8A6EC296466C700C3AAED /* SceneDelegate.swift */; };
 		6CD8A6EF296466C700C3AAED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD8A6EE296466C700C3AAED /* ViewController.swift */; };
 		6CD8A6F2296466C700C3AAED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD8A6F0296466C700C3AAED /* Main.storyboard */; };
 		6CD8A6F4296466C900C3AAED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD8A6F3296466C900C3AAED /* Assets.xcassets */; };
 		6CD8A6F7296466C900C3AAED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD8A6F5296466C900C3AAED /* LaunchScreen.storyboard */; };
+		6CD8A7022964673300C3AAED /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD8A7002964673300C3AAED /* SplashViewController.xib */; };
+		6CD8A7032964673300C3AAED /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD8A7012964673300C3AAED /* SplashViewController.swift */; };
+		6CD8A707296467A000C3AAED /* CatagoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD8A705296467A000C3AAED /* CatagoryViewController.xib */; };
+		6CD8A708296467A000C3AAED /* CatagoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD8A706296467A000C3AAED /* CatagoryViewController.swift */; };
+		6CD8A710296479E200C3AAED /* PharmacyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD8A70E296479E200C3AAED /* PharmacyViewController.xib */; };
+		6CD8A711296479E200C3AAED /* PharmacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD8A70F296479E200C3AAED /* PharmacyViewController.swift */; };
+		6CD8A71329647A0400C3AAED /* PharmacyViewController + TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD8A71229647A0400C3AAED /* PharmacyViewController + TableView.swift */; };
+		6CD8A716296485B200C3AAED /* CurrencyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD8A714296485B200C3AAED /* CurrencyViewController.xib */; };
+		6CD8A717296485B200C3AAED /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD8A715296485B200C3AAED /* CurrencyViewController.swift */; };
+		6CF04D362969CBF40074C0B8 /* PharmacyDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CF04D342969CBF40074C0B8 /* PharmacyDetailViewController.xib */; };
+		6CF04D372969CBF40074C0B8 /* PharmacyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF04D352969CBF40074C0B8 /* PharmacyDetailViewController.swift */; };
+		6CF04D39296A3F7B0074C0B8 /* AnnotionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF04D38296A3F7B0074C0B8 /* AnnotionModel.swift */; };
+		6CF04D3C296A40140074C0B8 /* MapKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF04D3B296A40140074C0B8 /* MapKit+Extension.swift */; };
+		6CF04D42296A5D710074C0B8 /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CF04D40296A5D710074C0B8 /* WeatherViewController.xib */; };
+		6CF04D43296A5D710074C0B8 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF04D41296A5D710074C0B8 /* WeatherViewController.swift */; };
+		6CF04D45296A5F020074C0B8 /* WeatherViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF04D44296A5F020074C0B8 /* WeatherViewController+TableView.swift */; };
+		6CF04D49296A5F730074C0B8 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CF04D47296A5F730074C0B8 /* WeatherCell.xib */; };
+		6CF04D4A296A5F730074C0B8 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF04D48296A5F730074C0B8 /* WeatherCell.swift */; };
+		6CF04D4C296A65C40074C0B8 /* CatagoryViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF04D4B296A65C40074C0B8 /* CatagoryViewController+TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BB48C4CA09E5408266DA4DD /* Pods_HomeWork_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeWork_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1D169F2965BF180091E728 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		6C1D16A12965BF3A0091E728 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6C1DE6062964DBD1009413C9 /* PharmacyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PharmacyCell.xib; sourceTree = "<group>"; };
+		6C1DE6072964DBD1009413C9 /* PharmacyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyCell.swift; sourceTree = "<group>"; };
+		6C1DE60A2964DD16009413C9 /* CurrencyViewController + TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CurrencyViewController + TableView.swift"; sourceTree = "<group>"; };
+		6C1DE60D2964DD5B009413C9 /* CurrencyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyCell.xib; sourceTree = "<group>"; };
+		6C1DE60E2964DD5B009413C9 /* CurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
+		6C31B94E2967226A00053C49 /* PharmacyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyViewModel.swift; sourceTree = "<group>"; };
+		6C31B951296723EB00053C49 /* PharmacyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyModel.swift; sourceTree = "<group>"; };
+		6C31B95329672B8300053C49 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		6C31B95529672F7800053C49 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		6C31B9572967301B00053C49 /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
+		6C31B959296731E600053C49 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		6C670B48296AFC66005B1C89 /* CatagoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatagoryCell.xib; sourceTree = "<group>"; };
+		6C670B49296AFC66005B1C89 /* CatagoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoryCell.swift; sourceTree = "<group>"; };
+		6C670B4C296B055D005B1C89 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		6CD8A6E7296466C700C3AAED /* HomeWork-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD8A6EA296466C700C3AAED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6CD8A6EC296466C700C3AAED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6CD8A6EE296466C700C3AAED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6CD8A6F1296466C700C3AAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CD8A6F3296466C900C3AAED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CD8A6F6296466C900C3AAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CD8A6F8296466C900C3AAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD8A7002964673300C3AAED /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		6CD8A7012964673300C3AAED /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		6CD8A705296467A000C3AAED /* CatagoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatagoryViewController.xib; sourceTree = "<group>"; };
+		6CD8A706296467A000C3AAED /* CatagoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoryViewController.swift; sourceTree = "<group>"; };
+		6CD8A70E296479E200C3AAED /* PharmacyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PharmacyViewController.xib; sourceTree = "<group>"; };
+		6CD8A70F296479E200C3AAED /* PharmacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyViewController.swift; sourceTree = "<group>"; };
+		6CD8A71229647A0400C3AAED /* PharmacyViewController + TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PharmacyViewController + TableView.swift"; sourceTree = "<group>"; };
+		6CD8A714296485B200C3AAED /* CurrencyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyViewController.xib; sourceTree = "<group>"; };
+		6CD8A715296485B200C3AAED /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		6CF04D342969CBF40074C0B8 /* PharmacyDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PharmacyDetailViewController.xib; sourceTree = "<group>"; };
+		6CF04D352969CBF40074C0B8 /* PharmacyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyDetailViewController.swift; sourceTree = "<group>"; };
+		6CF04D38296A3F7B0074C0B8 /* AnnotionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotionModel.swift; sourceTree = "<group>"; };
+		6CF04D3B296A40140074C0B8 /* MapKit+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapKit+Extension.swift"; sourceTree = "<group>"; };
+		6CF04D40296A5D710074C0B8 /* WeatherViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
+		6CF04D41296A5D710074C0B8 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		6CF04D44296A5F020074C0B8 /* WeatherViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherViewController+TableView.swift"; sourceTree = "<group>"; };
+		6CF04D47296A5F730074C0B8 /* WeatherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
+		6CF04D48296A5F730074C0B8 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		6CF04D4B296A65C40074C0B8 /* CatagoryViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CatagoryViewController+TableView.swift"; sourceTree = "<group>"; };
+		7CE5B4519BE09B40C94D73B1 /* Pods-HomeWork-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork-2.debug.xcconfig"; path = "Target Support Files/Pods-HomeWork-2/Pods-HomeWork-2.debug.xcconfig"; sourceTree = "<group>"; };
+		E44BB3349286268C697F505F /* Pods-HomeWork-2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork-2.release.xcconfig"; path = "Target Support Files/Pods-HomeWork-2/Pods-HomeWork-2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +103,96 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				613DFE162ABFC1C212ACB8DD /* Pods_HomeWork_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B5BEF0C0461969FB54EB753 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5B4519BE09B40C94D73B1 /* Pods-HomeWork-2.debug.xcconfig */,
+				E44BB3349286268C697F505F /* Pods-HomeWork-2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C1D169C2965BEAD0091E728 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6C1D169F2965BF180091E728 /* NetworkHelper.swift */,
+				6C1D16A12965BF3A0091E728 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6C1DE6042964DB9D009413C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C670B47296AFC4C005B1C89 /* CatagoryCell */,
+				6CF04D46296A5F5E0074C0B8 /* WeatherCell */,
+				6C1DE60C2964DD3E009413C9 /* CurrencyCell */,
+				6C1DE6052964DBA6009413C9 /* PharmacyCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6C1DE6052964DBA6009413C9 /* PharmacyCell */ = {
+			isa = PBXGroup;
+			children = (
+				6C1DE6062964DBD1009413C9 /* PharmacyCell.xib */,
+				6C1DE6072964DBD1009413C9 /* PharmacyCell.swift */,
+			);
+			path = PharmacyCell;
+			sourceTree = "<group>";
+		};
+		6C1DE60C2964DD3E009413C9 /* CurrencyCell */ = {
+			isa = PBXGroup;
+			children = (
+				6C1DE60D2964DD5B009413C9 /* CurrencyCell.xib */,
+				6C1DE60E2964DD5B009413C9 /* CurrencyCell.swift */,
+			);
+			path = CurrencyCell;
+			sourceTree = "<group>";
+		};
+		6C31B94D2967224000053C49 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6C31B94E2967226A00053C49 /* PharmacyViewModel.swift */,
+				6C31B95529672F7800053C49 /* WeatherViewModel.swift */,
+				6C31B9572967301B00053C49 /* CurrencyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6C31B950296723E300053C49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C31B951296723EB00053C49 /* PharmacyModel.swift */,
+				6C31B95329672B8300053C49 /* WeatherModel.swift */,
+				6C31B959296731E600053C49 /* CurrencyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6C670B47296AFC4C005B1C89 /* CatagoryCell */ = {
+			isa = PBXGroup;
+			children = (
+				6C670B48296AFC66005B1C89 /* CatagoryCell.xib */,
+				6C670B49296AFC66005B1C89 /* CatagoryCell.swift */,
+			);
+			path = CatagoryCell;
+			sourceTree = "<group>";
+		};
 		6CD8A6DE296466C700C3AAED = {
 			isa = PBXGroup;
 			children = (
 				6CD8A6E9296466C700C3AAED /* HomeWork-2 */,
 				6CD8A6E8296466C700C3AAED /* Products */,
+				6B5BEF0C0461969FB54EB753 /* Pods */,
+				8CF812B74BB8B9E398171703 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +207,13 @@
 		6CD8A6E9296466C700C3AAED /* HomeWork-2 */ = {
 			isa = PBXGroup;
 			children = (
+				6CF04D3A296A3FFD0074C0B8 /* Helper */,
+				6C1D169C2965BEAD0091E728 /* Networking */,
+				6C31B950296723E300053C49 /* Model */,
+				6C31B94D2967224000053C49 /* ViewModel */,
+				6C1DE6042964DB9D009413C9 /* View */,
+				6CD8A6FE2964670A00C3AAED /* Controller */,
 				6CD8A6EA296466C700C3AAED /* AppDelegate.swift */,
-				6CD8A6EC296466C700C3AAED /* SceneDelegate.swift */,
 				6CD8A6EE296466C700C3AAED /* ViewController.swift */,
 				6CD8A6F0296466C700C3AAED /* Main.storyboard */,
 				6CD8A6F3296466C900C3AAED /* Assets.xcassets */,
@@ -67,6 +223,112 @@
 			path = "HomeWork-2";
 			sourceTree = "<group>";
 		};
+		6CD8A6FE2964670A00C3AAED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CF04D3F296A5D580074C0B8 /* WeatherViewController */,
+				6CF04D322969CBC40074C0B8 /* Pharmacy */,
+				6CD8A70C2964791500C3AAED /* CurrencyViewController */,
+				6CD8A7042964678E00C3AAED /* CatagoryViewController */,
+				6CD8A6FF2964671700C3AAED /* SplashViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6CD8A6FF2964671700C3AAED /* SplashViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CD8A7002964673300C3AAED /* SplashViewController.xib */,
+				6CD8A7012964673300C3AAED /* SplashViewController.swift */,
+			);
+			path = SplashViewController;
+			sourceTree = "<group>";
+		};
+		6CD8A7042964678E00C3AAED /* CatagoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CD8A705296467A000C3AAED /* CatagoryViewController.xib */,
+				6CD8A706296467A000C3AAED /* CatagoryViewController.swift */,
+				6CF04D4B296A65C40074C0B8 /* CatagoryViewController+TableView.swift */,
+			);
+			path = CatagoryViewController;
+			sourceTree = "<group>";
+		};
+		6CD8A70B296478DA00C3AAED /* PharmacyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CD8A70E296479E200C3AAED /* PharmacyViewController.xib */,
+				6CD8A70F296479E200C3AAED /* PharmacyViewController.swift */,
+				6CD8A71229647A0400C3AAED /* PharmacyViewController + TableView.swift */,
+			);
+			path = PharmacyViewController;
+			sourceTree = "<group>";
+		};
+		6CD8A70C2964791500C3AAED /* CurrencyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CD8A714296485B200C3AAED /* CurrencyViewController.xib */,
+				6CD8A715296485B200C3AAED /* CurrencyViewController.swift */,
+				6C1DE60A2964DD16009413C9 /* CurrencyViewController + TableView.swift */,
+			);
+			path = CurrencyViewController;
+			sourceTree = "<group>";
+		};
+		6CF04D322969CBC40074C0B8 /* Pharmacy */ = {
+			isa = PBXGroup;
+			children = (
+				6CF04D332969CBCE0074C0B8 /* PharmacyDetailViewController */,
+				6CD8A70B296478DA00C3AAED /* PharmacyViewController */,
+			);
+			path = Pharmacy;
+			sourceTree = "<group>";
+		};
+		6CF04D332969CBCE0074C0B8 /* PharmacyDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CF04D342969CBF40074C0B8 /* PharmacyDetailViewController.xib */,
+				6CF04D352969CBF40074C0B8 /* PharmacyDetailViewController.swift */,
+			);
+			path = PharmacyDetailViewController;
+			sourceTree = "<group>";
+		};
+		6CF04D3A296A3FFD0074C0B8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6CF04D38296A3F7B0074C0B8 /* AnnotionModel.swift */,
+				6CF04D3B296A40140074C0B8 /* MapKit+Extension.swift */,
+				6C670B4C296B055D005B1C89 /* String+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6CF04D3F296A5D580074C0B8 /* WeatherViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CF04D40296A5D710074C0B8 /* WeatherViewController.xib */,
+				6CF04D41296A5D710074C0B8 /* WeatherViewController.swift */,
+				6CF04D44296A5F020074C0B8 /* WeatherViewController+TableView.swift */,
+			);
+			path = WeatherViewController;
+			sourceTree = "<group>";
+		};
+		6CF04D46296A5F5E0074C0B8 /* WeatherCell */ = {
+			isa = PBXGroup;
+			children = (
+				6CF04D47296A5F730074C0B8 /* WeatherCell.xib */,
+				6CF04D48296A5F730074C0B8 /* WeatherCell.swift */,
+			);
+			path = WeatherCell;
+			sourceTree = "<group>";
+		};
+		8CF812B74BB8B9E398171703 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BB48C4CA09E5408266DA4DD /* Pods_HomeWork_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +336,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CD8A6FB296466C900C3AAED /* Build configuration list for PBXNativeTarget "HomeWork-2" */;
 			buildPhases = (
+				49F958185E12FBA62BA14675 /* [CP] Check Pods Manifest.lock */,
 				6CD8A6E3296466C700C3AAED /* Sources */,
 				6CD8A6E4296466C700C3AAED /* Frameworks */,
 				6CD8A6E5296466C700C3AAED /* Resources */,
+				1CA485C90D5CA468F07864F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +389,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF04D362969CBF40074C0B8 /* PharmacyDetailViewController.xib in Resources */,
 				6CD8A6F7296466C900C3AAED /* LaunchScreen.storyboard in Resources */,
+				6CD8A710296479E200C3AAED /* PharmacyViewController.xib in Resources */,
+				6CD8A716296485B200C3AAED /* CurrencyViewController.xib in Resources */,
 				6CD8A6F4296466C900C3AAED /* Assets.xcassets in Resources */,
+				6CD8A707296467A000C3AAED /* CatagoryViewController.xib in Resources */,
+				6C1DE60F2964DD5B009413C9 /* CurrencyCell.xib in Resources */,
+				6C670B4A296AFC66005B1C89 /* CatagoryCell.xib in Resources */,
 				6CD8A6F2296466C700C3AAED /* Main.storyboard in Resources */,
+				6CF04D49296A5F730074C0B8 /* WeatherCell.xib in Resources */,
+				6CD8A7022964673300C3AAED /* SplashViewController.xib in Resources */,
+				6CF04D42296A5D710074C0B8 /* WeatherViewController.xib in Resources */,
+				6C1DE6082964DBD1009413C9 /* PharmacyCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CA485C90D5CA468F07864F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork-2/Pods-HomeWork-2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork-2/Pods-HomeWork-2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeWork-2/Pods-HomeWork-2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49F958185E12FBA62BA14675 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeWork-2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6CD8A6E3296466C700C3AAED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C1D16A02965BF180091E728 /* NetworkHelper.swift in Sources */,
+				6C31B9582967301B00053C49 /* CurrencyViewModel.swift in Sources */,
+				6C1DE60B2964DD16009413C9 /* CurrencyViewController + TableView.swift in Sources */,
+				6CF04D372969CBF40074C0B8 /* PharmacyDetailViewController.swift in Sources */,
+				6C31B95429672B8300053C49 /* WeatherModel.swift in Sources */,
+				6C31B94F2967226A00053C49 /* PharmacyViewModel.swift in Sources */,
+				6CF04D4C296A65C40074C0B8 /* CatagoryViewController+TableView.swift in Sources */,
+				6CD8A708296467A000C3AAED /* CatagoryViewController.swift in Sources */,
+				6C31B95629672F7800053C49 /* WeatherViewModel.swift in Sources */,
+				6CD8A71329647A0400C3AAED /* PharmacyViewController + TableView.swift in Sources */,
+				6CD8A711296479E200C3AAED /* PharmacyViewController.swift in Sources */,
+				6CD8A717296485B200C3AAED /* CurrencyViewController.swift in Sources */,
+				6C1DE6102964DD5B009413C9 /* CurrencyCell.swift in Sources */,
+				6C31B952296723EB00053C49 /* PharmacyModel.swift in Sources */,
+				6CF04D3C296A40140074C0B8 /* MapKit+Extension.swift in Sources */,
+				6C31B95A296731E600053C49 /* CurrencyModel.swift in Sources */,
+				6CD8A7032964673300C3AAED /* SplashViewController.swift in Sources */,
 				6CD8A6EF296466C700C3AAED /* ViewController.swift in Sources */,
+				6CF04D39296A3F7B0074C0B8 /* AnnotionModel.swift in Sources */,
+				6C670B4D296B055D005B1C89 /* String+Extension.swift in Sources */,
 				6CD8A6EB296466C700C3AAED /* AppDelegate.swift in Sources */,
-				6CD8A6ED296466C700C3AAED /* SceneDelegate.swift in Sources */,
+				6C1D16A22965BF3A0091E728 /* NetworkManager.swift in Sources */,
+				6CF04D4A296A5F730074C0B8 /* WeatherCell.swift in Sources */,
+				6C1DE6092964DBD1009413C9 /* PharmacyCell.swift in Sources */,
+				6CF04D45296A5F020074C0B8 /* WeatherViewController+TableView.swift in Sources */,
+				6CF04D43296A5D710074C0B8 /* WeatherViewController.swift in Sources */,
+				6C670B4B296AFC66005B1C89 /* CatagoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +622,7 @@
 		};
 		6CD8A6FC296466C900C3AAED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE5B4519BE09B40C94D73B1 /* Pods-HomeWork-2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +650,7 @@
 		};
 		6CD8A6FD296466C900C3AAED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44BB3349286268C697F505F /* Pods-HomeWork-2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WeatherViewController" customModule="HomeWork_2" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="ajm-oc-hCD" id="9sO-Wq-Yu0"/>
+                <outlet property="tableView" destination="kbv-6i-CSQ" id="RdC-uD-eZE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="kbv-6i-CSQ">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="ajm-oc-hCD">
+                    <rect key="frame" x="185" y="412" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="kbv-6i-CSQ" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="2WA-pn-od9"/>
+                <constraint firstItem="kbv-6i-CSQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="FGT-uu-6KQ"/>
+                <constraint firstItem="ajm-oc-hCD" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="XCO-y9-0pA"/>
+                <constraint firstItem="ajm-oc-hCD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="YZc-9Y-zTX"/>
+                <constraint firstAttribute="bottom" secondItem="kbv-6i-CSQ" secondAttribute="bottom" id="fzs-Xo-YTH"/>
+                <constraint firstItem="kbv-6i-CSQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="rkB-1e-IZj"/>
+            </constraints>
+            <point key="canvasLocation" x="140" y="20.616113744075829"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
